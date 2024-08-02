@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font to Segoe UI */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light gray background for the body */
+}
+
+header {
+    background-color: #007acc; /* New header background color (blue) */
+    padding: 15px 25px; /* Increased padding for better spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 120px; /* Slightly larger logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Increased gap between links */
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none;
+    padding: 12px 18px; /* Increased padding for better touch target */
+    border-radius: 8px; /* Slightly larger border radius */
+    font-weight: 500; /* Semi-bold text for better visibility */
+}
+
+nav a:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+    color: #ffffff; /* Ensure text color stays white on hover */
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing */
+    background-color: #ffffff; /* White background for the main content */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Increased gap between buttons */
+}
+
+.project-button {
+    background-color: #00bcd4; /* Teal background color for buttons */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px; /* Slightly larger font size for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 8px; /* Larger border radius for a more rounded button */
+}
+
+.project-button:hover {
+    background-color: #008c9e; /* Darker teal on hover */
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #007acc; /* Matching footer color with header */
+    color: #ffffff; /* White text color for footer */
+    text-align: center;
+    padding: 15px; /* Increased padding for better spacing */
+    font-size: 16px; /* Increased font size for readability */
+}
